@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Pong HTML Game</title>
+  <meta charset="UTF-8">
+  <style>
+  /* html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  /* navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+  </style>
+</head>
+<body>
+	<nav>
+		<ul>
+		  <li><a class="active" href="#home">Welcome</a></li>
+		  <li><a href="playpong.html">pong</a></li>
+		  <li><a href="playcheck.html">chess</a></li>
+		  <li><a href="#about">myprofile</a></li>
+		</ul>
+	  </nav>
+<canvas width="750" height="585" id="game"></canvas>
+<script src="playpong.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Checkerboard</title>
+    <style>
+      .main-canvas {
+        margin-top: 20px;
+	margin-left: 10%;
+	margin-right: auto;
+        border: 1px solid black;
+      }
+      .main-canvas:hover {
+        cursor: grab;
+      }
+      .main-canvas:active {
+        cursor: grabbing;
+      }
+
+	.text {
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: auto;
+	width: 560px;
+}
+.goback {
+    position: fixed;
+    bottom: 15%;
+    left: -6%;
+    width: 100px;
+    height: 50px;
+    background-color: #ff9292;
+    border-radius: 10px;
+    font-size: 2em;
+    text-align: center;
+    transition: left 1s;
+}
+
+.goback:hover {
+    left: 0;
+}
+/* navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a class="active" href="#home">Welcome</a></li>
+        <li><a href="playpong.html">pong</a></li>
+        <li><a href="playcheck.html">chess</a></li>
+        <li><a href="#about">myprofile</a></li>
+      </ul>
+    </nav>
+    <canvas width="560" height="560" class="main-canvas"></canvas>
+    <script src="playcheckscript.js"></script>
+	<div class="text">
+	<h2>Hi There</h2>
+	<h3>Welcome to our Transcendence</h3>
+
+
+	<h6>version 4.2</h6>
+	</div>
+
+  </body>
+</html>
